@@ -1,80 +1,87 @@
 ```markdown
-# Máy Tính Nâng Cao - Dự Án Bài Tập Chương 3
+<div align="center">
 
-## Mô Tả Dự Án và Tính Năng
+# 🧮 Máy Tính Nâng Cao (Advanced Calculator)
+**Dự Án Bài Tập Chương 3 - Phát Triển Ứng Dụng Flutter**
 
-Máy Tính Nâng Cao là một ứng dụng máy tính đa năng, được phát triển như một bài tập thực hành trong Chương 3. Ứng dụng này cung cấp một loạt các chế độ tính toán và các chức năng nâng cao, đáp ứng nhu cầu của nhiều đối tượng người dùng.
+[![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-**Các tính năng chính:**
+</div>
 
-*   **Chế Độ Cơ Bản:** Thực hiện các phép toán số học cơ bản: cộng, trừ, nhân, chia.
-*   **Chế Độ Khoa Học:** Hỗ trợ các hàm toán học nâng cao như lượng giác (sin, cos, tan), logarit (log, ln), lũy thừa, căn bậc, và các hằng số toán học (π, e).
-*   **Chế Độ Lập Trình:** Chuyển đổi giữa các hệ số (nhị phân, thập lục phân, bát phân) và thực hiện các phép toán bitwise (AND, OR, XOR, NOT).
-*   **Lịch Sử Tính Toán:** Lưu trữ và cho phép người dùng xem lại các phép tính đã thực hiện.
-*   **Bộ Nhớ:** Cung cấp các chức năng bộ nhớ (M+, M-, MR, MC) để lưu trữ và gọi lại các giá trị.
-*   **Giao Diện Thân Thiện:** Thiết kế giao diện trực quan, dễ sử dụng và tương thích với nhiều kích thước màn hình.
+---
 
-## Ảnh Chụp Màn Hình/GIF
+## 📝 Mô Tả Dự Án
 
-### Chế Độ Cơ Bản
+**Máy Tính Nâng Cao** là ứng dụng đa năng được thiết kế để giải quyết mọi nhu cầu tính toán từ cơ bản đến phức tạp. Ứng dụng tập trung vào trải nghiệm người dùng với giao diện trực quan, hỗ trợ đa chế độ và khả năng tùy biến cao.
 
-![Chế Độ Cơ Bản](assets/images/darknomal.png)
-*Giao diện tính toán cơ bản, dễ dàng thực hiện các phép tính thông thường.*
+### ✨ Các Tính Năng Chính
 
-### Chế Độ Khoa Học
+* 🧮 **Chế Độ Cơ Bản:** Thực hiện các phép toán số học (+, -, ×, ÷) nhanh chóng.
+* 🔬 **Chế Độ Khoa Học:** Hỗ trợ lượng giác (sin, cos, tan), logarit, lũy thừa, căn bậc và hằng số (π, e).
+* 👨‍💻 **Chế Độ Lập Trình:** Chuyển đổi hệ cơ số (Hex, Dec, Oct, Bin) và phép toán Bitwise.
+* 📜 **Lịch Sử & Bộ Nhớ:** Tự động lưu lịch sử tính toán và hỗ trợ các phím nhớ (M+, MR...).
+* 🎨 **Giao Diện Hiện Đại:** Hỗ trợ Dark Mode/Light Mode và tương thích nhiều kích thước màn hình.
 
-![Chế Độ Khoa Học](assets/images/darkscen.png)
-*Giao diện tính toán khoa học, hỗ trợ các hàm toán học phức tạp.*
+---
 
-### Chế Độ Lập Trình
+## 📸 Ảnh Chụp Màn Hình
 
-![Chế Độ Lập Trình](assets/images/darkprogram.png)
-*Giao diện chuyển đổi hệ số và thực hiện các phép toán bitwise.*
+<div align="center">
 
-### Lịch Sử Tính Toán
+| **Chế Độ Cơ Bản** | **Chế Độ Khoa Học** |
+|:---:|:---:|
+| <img src="assets/images/darknomal.png" width="300" alt="Basic Mode"/> <br> *Giao diện tính toán cơ bản* | <img src="assets/images/darkscen.png" width="300" alt="Scientific Mode"/> <br> *Hỗ trợ hàm toán học phức tạp* |
 
-![Lịch Sử Tính Toán](assets/images/history.png)
-*Giao diện lịch sử tính toán, cho phép xem lại các phép tính trước đó.*
+| **Chế Độ Lập Trình** | **Lịch Sử Tính Toán** |
+|:---:|:---:|
+| <img src="assets/images/darkprogram.png" width="300" alt="Programmer Mode"/> <br> *Chuyển đổi hệ số & Bitwise* | <img src="assets/images/history.png" width="300" alt="History"/> <br> *Xem lại các phép tính cũ* |
 
-### Cài Đặt
+| **Cài Đặt** | **Giao Diện Sáng / Tối** |
+|:---:|:---:|
+| <img src="assets/images/setting.png" width="300" alt="Settings"/> <br> *Tùy chỉnh giao diện & dữ liệu* | <img src="assets/images/giaodientinhtoanlight.png" width="145" alt="Light Mode"/> <img src="assets/images/giaodientinhtoandark.png" width="145" alt="Dark Mode"/> <br> *Theme Sáng & Tối* |
 
-![Giao Diện Cài Đặt](assets/images/setting.png)
-*Giao cài đặt, có nhiều chứ năng hỗ trợ thay đổi theme xóa lịch sử và cài đặt chế độ.*
+</div>
 
-### Tính Toán Ở Giao Diện Sáng
+---
 
-![Giao Diện Tính Toán Theme Light](assets/images/giaodientinhtoanlight.png)
-*Giao tính toán, với theme sáng.*
-
-### Tính Toán Ở Giao Diện Tối
-
-![Giao Diện Tính Toán Theme Dart](assets/images/giaodientinhtoandark.png)
-*Giao tính toán, với theme tối.*
+## 🏗️ Sơ Đồ Kiến Trúc
 
 
-## Sơ Đồ Kiến Trúc
 
-```text
-[Giao Diện Người Dùng]
-    - Màn Hình Hiển Thị
-    - Bảng Nút
-    - Bộ Chọn Chế Độ
-    ↓
-[Bộ Điều Khiển/Xử Lý Sự Kiện]
-    - Xử Lý Đầu Vào
-    - Quản Lý Chế Độ
-    - Định Tuyến Sự Kiện
-    ↓
-[Lớp Logic]
-    - Engine Máy Tính Cơ Bản
-    - Máy Tính Khoa Học
-    - Máy Tính Lập Trình
-    ↓
-[Quản Lý Dữ Liệu]
-    - Lưu Trữ Lịch Sử
-    - Quản Lý Bộ Nhớ
-    - Cài Đặt/Ưu Tiên
-```
+[Image of Calculator Logic Flowchart]
+
+
+```mermaid
+graph TD;
+    subgraph UI [Giao Diện Người Dùng]
+        Display[Màn Hình Hiển Thị]
+        Keypad[Bảng Nút]
+        ModeSel[Bộ Chọn Chế Độ]
+    end
+
+    subgraph Controller [Bộ Điều Khiển]
+        InputHandler[Xử Lý Đầu Vào]
+        ModeMgr[Quản Lý Chế Độ]
+        Router[Định Tuyến Sự Kiện]
+    end
+
+    subgraph Logic [Lớp Logic]
+        BasicEng[Engine Cơ Bản]
+        SciEng[Máy Tính Khoa Học]
+        ProgEng[Máy Tính Lập Trình]
+    end
+
+    subgraph Data [Quản Lý Dữ Liệu]
+        History[Lưu Trữ Lịch Sử]
+        Memory[Quản Lý Bộ Nhớ]
+        Settings[Cài Đặt/Theme]
+    end
+
+    UI --> Controller
+    Controller --> Logic
+    Logic --> Data
 
 ## Hướng Dẫn Cài Đặt
 

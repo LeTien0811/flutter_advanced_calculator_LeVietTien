@@ -18,40 +18,37 @@ Máy Tính Nâng Cao là một ứng dụng máy tính đa năng, được phát
 
 ### Chế Độ Cơ Bản
 
-![Chế Độ Cơ Bản]
-<img src="assets/images/darknomal.png" width="250">
+![Chế Độ Cơ Bản](assets/images/darknomal.png)
 *Giao diện tính toán cơ bản, dễ dàng thực hiện các phép tính thông thường.*
 
 ### Chế Độ Khoa Học
 
-![Chế Độ Khoa Học]
-<img src="assets/images/darkscen.png" width="250">
+![Chế Độ Khoa Học](assets/images/darkscen.png)
 *Giao diện tính toán khoa học, hỗ trợ các hàm toán học phức tạp.*
 
 ### Chế Độ Lập Trình
 
-![Chế Độ Lập Trình]
-<img src="assets/images/darkprogram.png" width="250">
+![Chế Độ Lập Trình](assets/images/darkprogram.png)
 *Giao diện chuyển đổi hệ số và thực hiện các phép toán bitwise.*
 
 ### Lịch Sử Tính Toán
 
-![Lịch Sử Tính Toán]<img src="assets/images/history.png" width="250">
+![Lịch Sử Tính Toán](assets/images/history.png)
 *Giao diện lịch sử tính toán, cho phép xem lại các phép tính trước đó.*
 
 ### Cài Đặt
 
-![Giao Diện Cài Đặt]<img src="assets/images/setting.png" width="250">
+![Giao Diện Cài Đặt](assets/images/setting.png)
 *Giao cài đặt, có nhiều chứ năng hỗ trợ thay đổi theme xóa lịch sử và cài đặt chế độ.*
 
 ### Tính Toán Ở Giao Diện Sáng
 
-![Giao Diện Tính Toán Theme Light]<img src="assets/images/giaodientinhtoanlight.png" width="250">
+![Giao Diện Tính Toán Theme Light](assets/images/giaodientinhtoanlight.png)
 *Giao tính toán, với theme sáng.*
 
 ### Tính Toán Ở Giao Diện Tối
 
-![Giao Diện Tính Toán Theme Dart]<img src="assets/images/giaodientinhtoandark.png" width="250">
+![Giao Diện Tính Toán Theme Dart](assets/images/giaodientinhtoandark.png)
 *Giao tính toán, với theme tối.*
 
 

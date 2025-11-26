@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
 # 🧮 Máy Tính Nâng Cao (Advanced Calculator)
@@ -82,6 +81,7 @@ graph TD;
     UI --> Controller
     Controller --> Logic
     Logic --> Data
+```
 
 ## Hướng Dẫn Cài Đặt
 

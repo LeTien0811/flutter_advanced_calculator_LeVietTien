@@ -19,7 +19,7 @@
 
 * 🧮 **Chế Độ Cơ Bản:** Thực hiện các phép toán số học (+, -, ×, ÷) nhanh chóng.
 * 🔬 **Chế Độ Khoa Học:** Hỗ trợ lượng giác (sin, cos, tan), logarit, lũy thừa, căn bậc và hằng số (π, e).
-* 👨‍💻 **Chế Độ Lập Trình:** Chuyển đổi hệ cơ số (Hex, Dec, Oct, Bin) và phép toán Bitwise.
+* 💻 **Chế Độ Lập Trình:** Chuyển đổi hệ cơ số (Hex, Dec, Oct, Bin) và phép toán Bitwise.
 * 📜 **Lịch Sử & Bộ Nhớ:** Tự động lưu lịch sử tính toán và hỗ trợ các phím nhớ (M+, MR...).
 * 🎨 **Giao Diện Hiện Đại:** Hỗ trợ Dark Mode/Light Mode và tương thích nhiều kích thước màn hình.
 
